@@ -3,6 +3,12 @@ name: nodejs
 on: push
 
 jobs:
-
-   job1:
-   job2:
+  build:
+   
+    runs-on: ubuntu:latest
+    
+    steps:
+      - name: checkout the code
+        uses: actions/checkout@v2
+  
+  
